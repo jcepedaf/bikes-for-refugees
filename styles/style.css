@@ -36,6 +36,28 @@ button {
 }
 
 /* Buttons */
+.button-primary {
+  background: #ce5f31;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button-secondary:hover{
+  background-color: #e9a182;
+}
+
+.button-secondary {
+  background: white;
+  color: #ce5f31;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
 
 /* INSERT BUTTON STYLES HERE */
 
@@ -67,7 +89,7 @@ button {
 /* Jumbotron */
 
 .jumbotron {
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/header-bike.jpg");
   border-radius: 0;
   color: #fff;
 }
@@ -97,9 +119,32 @@ button {
 
 /* Article */
 
+
 .article {
   margin-bottom: 2em;
+  display: flex;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
 }
+
+.article__body {
+  margin-left: 15px;
+}
+
+.article-wrapper{
+  display:flex;
+  justify-content: space-between;
+ }
+
+ .article-wrapper .article{
+  width: 48%;
+}
+ 
+ .article-wrapper .article:hover{
+  background-color: #dccdc6;
+}
+
 
 .article__image {
   object-fit: contain;
