@@ -196,3 +196,14 @@ button {
     max-height: 80px;
   }
 }
+
+@media (max-width: 320px){
+  .jumbotron h2 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .jumbotron .boton {
+    display: flex;
+    font-size: 10px;
+     }
+}
